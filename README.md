@@ -43,11 +43,10 @@ For a sample window and WebBrowser control, see the n_webbrowser user object in 
 Step 3: Define a user event for the WebBrowser control and then register it before it's triggered.
 
 For example,
-
+```
 ue_clicked(string as_arg)
-
-RegisterEvent("ue_clicked");
-
+RegisterEvent("ue_clicked")
+```
 For a sample code, see the n_webbrowser user object in this demo.
 
 Step 4: Use the EvaluateJavaScriptSync and EvaluateJavaScriptAsync functions of the WebBrowser control to execute JavaScripts to define three variables for the HTML page:
