@@ -2,7 +2,7 @@
 
 The Graph demo shows how to use the PowerBuilder WebBrowser control to render the third-party visual charts which are exposed as JavaScript classes. It mainly demonstrates how to execute JavaScripts in the PowerBuilder application to dynamically adjust data display in different chart styles; and connect the chart event with the WebBrowser event so that JavaScript and PowerScript can interact with each other.
 
-##General steps to apply a chart (exposed as JavaScript classes)
+## General steps to apply a chart (exposed as JavaScript classes)
 
 Step 1: Create an HTML page which contains the following:
 
@@ -62,7 +62,7 @@ For a sample code, see of_apply and of_apply_async functions in n_webbrowser.
 
 Step 5: Bind the select event of the point in the chart with the selectHandler function, so that the WebBrowser ue_clicked event can be triggered when window.webBrowser.ue_clicked is triggered, and values can be passed by as_arg between PowerScript and JavaScript.
 
-##To import Google Charts from demo
+## To import Google Charts from demo
 
 The demo app has shown cases for many chart styles including Line, Candlestick(K-Line), Area, Column, Pie, Scatter, Org, and Timelines. Notice that, for Org and Timelines charts, additional JavaScript and CSS files must be referenced.
 
@@ -104,7 +104,7 @@ For example, to configure the color, you can add an array in the options argumen
 
 {title:\'Title\', legend:{position:\'bottom\'},colors:\[\'red\',\'\#004411\',\'rgb(128,128,128)\'\]}
 
-##To apply ECharts
+## To apply ECharts
 
 Step 1: Create an HTML page which contains the following:
 
