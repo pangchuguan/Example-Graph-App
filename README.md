@@ -20,7 +20,7 @@ Step 4: Use the EvaluateJavaScriptSync and EvaluateJavaScriptAsync functions of 
 
 Step 5: If the JavaScript classes support user event bindings, then bind window.webBrowser.ue_clicked with the WebBrowser ue_clicked event so that arguments can be passed between them.
 
-##To apply Google Charts
+## To apply Google Charts
 
 Step 1: Create an HTML page which contains the following:
 
@@ -46,7 +46,7 @@ For example,
 
 ue_clicked(string as_arg)
 
-RegisterEvent(\"ue_clicked\");
+RegisterEvent("ue_clicked");
 
 For a sample code, see the n_webbrowser user object in this demo.
 
@@ -79,10 +79,10 @@ The of_createData function etc. generate the JSON string from the graph DataObje
 ```
 String ls_Title, ls_Option, ls_data
 //Title
-ls_Title = dw_1.Describe(\"gr_1.title\")
+ls_Title = dw_1.Describe("gr_1.title")
 wb_1.of_SetTitle(ls_Title)
 //Style
-wb_1.of_SetStyle(\"area\")
+wb_1.of_SetStyle("area")
 //Width
 wb_1.of_SetWidth(750)
 //Height
@@ -127,7 +127,7 @@ Step 3: Define a user event for the WebBrowser control and then register it befo
 For example,
 ```
 ue_clicked(string as_arg)
-RegisterEvent(\"ue_clicked\")
+RegisterEvent("ue_clicked")
 ```
 
 For a sample code, see the n_webbrowser user object in this demo.
