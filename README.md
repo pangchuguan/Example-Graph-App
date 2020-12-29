@@ -43,8 +43,10 @@ For a sample window and WebBrowser control, see the n_webbrowser user object in 
 Step 3: Define a user event for the WebBrowser control and then register it before it's triggered.
 
 For example,
+
+event ue_clicked(string as_arg);
+end event
 ```
-ue_clicked(string as_arg)
 RegisterEvent("ue_clicked")
 ```
 For a sample code, see the n_webbrowser user object in this demo.
@@ -124,8 +126,9 @@ For a sample window and WebBrowser control, see the n_webbrowser user object in 
 Step 3: Define a user event for the WebBrowser control and then register it before it's triggered.
 
 For example,
+event ue_clicked(string as_arg);
+end event
 ```
-ue_clicked(string as_arg)
 RegisterEvent("ue_clicked")
 ```
 
