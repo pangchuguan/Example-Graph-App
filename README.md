@@ -45,6 +45,7 @@ Step 3: Define a user event for the WebBrowser control and then register it befo
 For example,
 
 event ue_clicked(string as_arg);
+
 end event
 ```
 RegisterEvent("ue_clicked")
@@ -127,6 +128,7 @@ Step 3: Define a user event for the WebBrowser control and then register it befo
 
 For example,
 event ue_clicked(string as_arg);
+
 end event
 ```
 RegisterEvent("ue_clicked")
